@@ -1,0 +1,8 @@
+@keyframes partyPulse {
+  0%, 100% { filter: hue-rotate(0deg); }
+  50% { filter: hue-rotate(20deg); }
+}
+
+.party-mode {
+  animation: partyPulse 5s infinite linear;
+}
